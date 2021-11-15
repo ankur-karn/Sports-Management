@@ -14,7 +14,7 @@
 
 	$event_id=mysqli_real_escape_string($db,$_POST['event_id']);
 	$contestant_id=mysqli_real_escape_string($db,$_POST['contestant_id']);
-	$sql="INSERT INTO 'contestant_in_event' VALUES ('$event_id','$contestant_id')";
+	$sql="INSERT INTO contestant_in_event VALUES ('$event_id','$contestant_id')";
 	if(mysqli_query($db, $sql))
 	{
         echo "Added contestant to event";
@@ -25,5 +25,5 @@
 
         // Close connection
         mysqli_close($db);
-        ?>
+        
 ?>
