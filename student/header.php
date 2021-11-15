@@ -14,14 +14,14 @@
     <div>IIITDM Jabalpur Sports Manager</div>
 
     <div>
-        <p>Logged in as <?php echo $_SESSION['username']; ?>!</p>
-        <p><a href="../logout.php">Logout</a></p>
+        <p>Logged in as <?php echo $_SESSION['username']; ?>&emsp;<a href="../logout.php">logout</a></p>
+        <p></p>
     </div>
     <div>
-            <a href="profile.php">View profile</a><br>
-            <a href="sports-list.php">View sports list</a><br>
-            <a href="category-list.php">View category list</a><br>
-            <a href="solo-contestant.php">Participate as contestant</a><br>
-            <a href="team-contestant.php">Participate your team</a><br>
-            <a href="create-team.php">Create your team</a><br>
+            <a href="profile.php">Profile</a>&emsp;
+            <a href="sports-list.php">Sports list</a>&emsp;
+            <a href="category-list.php">Category list</a>&emsp;
+            <a href="solo-contestant.php">Participate as contestant</a>&emsp;
+            <a href="team-contestant.php">Participate your team</a>&emsp;
+            <a href="create-team.php">Create your team</a>
     </div>
