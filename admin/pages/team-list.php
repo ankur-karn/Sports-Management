@@ -16,12 +16,12 @@ echo "<table>";
     echo "  <tr>
     <td>Team ID</td>
     <td>Team Name</td>
-
+    <td>Captain's ID</td>
   </tr>";
     while($row = mysqli_fetch_array($result))
       {
 
-      echo "<tr><td>" . $row['team_id']. "</td><td> " . $row['team_name']. "</td></tr> "; //these are the fields that you have stored in your database table employee
+      echo "<tr><td>" . $row['team_id']. "</td><td> " . $row['team_name']. "</td><td> " . $row['captain_id']. "</td></tr> "; //these are the fields that you have stored in your database table employee
       echo "<br />";
       }
  echo "</table>";
