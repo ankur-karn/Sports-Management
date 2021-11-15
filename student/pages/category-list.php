@@ -25,7 +25,7 @@ echo "<table>";
     while($row = mysqli_fetch_array($result))
       {
 
-      echo "<tr><td>" . $row['category_id']. "</td><td> " . $row['category_name']. "</td><td> " . $row['sport_name']. "</td><td> " . $row['gender']. "</td><td> " . $row['team_size']. "</td></tr> "; //these are the fields that you have stored in your database table employee
+      echo "<tr><td>" . $row['category_id']. "</td><td> " . $row['category_name']. "</td><td> " . $row['sport_name']. "</td><td> " . $row['gender']. "</td><td> " . $row['team_size']. "</td></tr> ";
       echo "<br />";
       }
  echo "</table>";
