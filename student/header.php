@@ -15,7 +15,7 @@
 
     <div>
         <p>Logged in as <?php echo $_SESSION['username']; ?>!</p>
-        <p><a href="logout.php">Logout</a></p>
+        <p><a href="../logout.php">Logout</a></p>
     </div>
     <div>
             <a href="profile.php">View profile</a><br>
