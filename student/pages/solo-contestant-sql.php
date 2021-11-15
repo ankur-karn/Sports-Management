@@ -14,7 +14,7 @@
 
 	$category_id=mysqli_real_escape_string($db,$_POST['category_id']);
 	$solo_id=mysqli_real_escape_string($db,$_POST['solo_id']);
-	$sql="INSERT INTO 'contestant' VALUES ('','$category_id',NULL,'$solo_id')";
+	$sql="INSERT INTO contestant VALUES ('','$category_id',NULL,'$solo_id')";
 	if(mysqli_query($db, $sql))
 	{
         echo "CONGRATULATIONS,YOU ARE NOW A CONTESTANT IN THIS CATEGORY";
@@ -25,5 +25,5 @@
 
         // Close connection
         mysqli_close($db);
-        ?>
+        
 ?>
