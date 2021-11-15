@@ -15,7 +15,7 @@
 
 	$event_name=mysqli_real_escape_string($db,$_POST['event_name']);
 	$event_day=mysqli_real_escape_string($db,$_POST['event_day']);
-	$sql="INSERT INTO 'event' VALUES ('','$event_name','$event_day')";
+	$sql="INSERT INTO event VALUES ('','$event_name','$event_day')";
 	if(mysqli_query($db, $sql))
 	{
         echo "CREATED NEW EVENT";
@@ -26,5 +26,5 @@
 
         // Close connection
         mysqli_close($db);
-        ?>
+        
 ?>
