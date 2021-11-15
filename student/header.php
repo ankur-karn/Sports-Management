@@ -23,5 +23,5 @@
             <a href="category-list.php">Category list</a>&emsp;
             <a href="solo-contestant.php">Participate as contestant</a>&emsp;
             <a href="team-contestant.php">Participate as team</a>&emsp;
-            <a href="create-team.php">Create your team</a>
+            <a href="create-team.php">Register your team</a>
     </div>
