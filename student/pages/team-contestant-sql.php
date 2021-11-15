@@ -25,5 +25,5 @@
 
         // Close connection
         mysqli_close($db);
-       
+
 ?>
