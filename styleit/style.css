@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(62, 192, 243); 
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.title{
+   padding-top: 5px;
+   font-weight: bold;
+}
+
+.main{
+    padding: 0;
+    margin: 0;
+    background-color: lightgreen ;
+    height: 240px;
+    width: auto;
+    border-radius: 20px;
+}
+
+p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+ button{
+    border: maroon;
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: red;
+    color: whitesmoke;
+    margin-right: 20px;
+    margin-left: 1400px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: teal;
+}
+input{
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.ref{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: teal;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.item{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: yellow;}
+tr:nth-child(even) {background-color: #f2f2f2;}

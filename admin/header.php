@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><style>
-table, th, td {
+<head>
+
+  <style>
+    <?php include '../styleit/style.css'; ?>
+    table, th, td {
+  /* <link rel="stylesheet" href="../styleit/style.css"> */
   border:1px solid black;
 }
-</style></head>
+</style>
+
+</head>
   <body>
     <div>IIITDM Jabalpur Sports Manager</div>
     <div>

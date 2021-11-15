@@ -2,12 +2,12 @@
 include("../auth_session.php");
 include("../header.php");
 ?>
-
+    <div class="ref">
         <h1>Your team wants to participate in which sport category</h1>
-
+        
         <form action="team-contestant-sql.php" method="post">
-
-<p>
+            
+            <p>
                 <label for="category_id">Category ID:</label>
                 <input type="text" name="category_id" id="category_id">
             </p>
@@ -15,9 +15,11 @@ include("../header.php");
                 <label for="team_id">Your team ID: </label>
                 <input type="text" name="team_id" id="team_id">
             </p>
-
-            <input type="submit" value="Submit">
+            <p>
+                <input type="submit" value="Submit">
+            </p>
         </form>
+    </div>
 </body>
 
 </html>
