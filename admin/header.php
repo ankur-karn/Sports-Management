@@ -16,6 +16,8 @@ table, th, td {
             <a href="sports-list.php">View sports list</a><br>
             <a href="category-list.php">View category list</a><br>
             <a href="members-list.php">View members list</a><br>
+            <a href="team-list.php">View members list</a><br>
+            <a href="contestant-list.php">View members list</a><br>
             <a href="add-sport.php">Add Sports</a><br>
             <a href="add-category.php">Add category</a><br>
             <a href="add-event.php">Add event</a><br>
