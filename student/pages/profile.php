@@ -13,9 +13,9 @@ include("../auth_session.php");
     
     //------------------Profile------------------------------
     $result = mysqli_query($con,"SELECT * FROM member WHERE solo_id_roll = '{$_SESSION['username']}'");
-    
+    ?>
     <div class="ref">
-
+<?php
     echo "<h2>Your Profile Information:</h2>";
 echo "<table>";
 
